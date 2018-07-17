@@ -5,6 +5,7 @@ import io.javacohort3.FarmerFroilan.interfaces.Rideable;
 
 public class Horse extends Animal implements Rideable {
     public void makeNoise() {
-        System.out.println("bdd-ddd-dd-rrr");
+        System.out.println("neigh!");
     }
 }
+
