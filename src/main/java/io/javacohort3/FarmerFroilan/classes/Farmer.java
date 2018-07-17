@@ -4,6 +4,9 @@ package io.javacohort3.FarmerFroilan.classes;
 import io.javacohort3.FarmerFroilan.interfaces.Botanist;
 import io.javacohort3.FarmerFroilan.interfaces.Person;
 import io.javacohort3.FarmerFroilan.interfaces.Rider;
+import io.javacohort3.FarmerFroilan.abstracts.Crop;
+import io.javacohort3.FarmerFroilan.abstracts.Edible;
+import io.javacohort3.FarmerFroilan.interfaces.Rideable;
 
 public class Farmer implements Person, Rider, Botanist {
 
