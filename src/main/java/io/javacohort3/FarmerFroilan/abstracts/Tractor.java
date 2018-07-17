@@ -5,9 +5,9 @@ import io.javacohort3.FarmerFroilan.interfaces.FarmVehicle;
 
 public abstract class Tractor implements FarmVehicle {
 
-    private Crop crop;
+    private Crop harvest;
 
     public void harvest(Crop crop){
-      this.crop = crop;
+      this.harvest = harvest;
     }
 }
