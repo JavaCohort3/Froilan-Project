@@ -1,4 +1,4 @@
 package interfaces;
 
-public interface vehicles {
+public interface Vehicle extends Rideable, NoiseMaker {
 }

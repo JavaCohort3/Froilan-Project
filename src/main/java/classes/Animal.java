@@ -1,4 +1,4 @@
 package classes;
 
-public class Animal {
+public abstract class Animal {
 }

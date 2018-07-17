@@ -1,4 +1,5 @@
 package interfaces;
 
-public interface FarmVehicle {
+public interface FarmVehicle extends Vehicle {
+    void operate();
 }

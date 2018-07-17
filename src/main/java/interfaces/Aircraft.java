@@ -1,4 +1,5 @@
 package interfaces;
 
-public interface Aircraft {
+public interface Aircraft extends Vehicle{
+ void fly();
 }
