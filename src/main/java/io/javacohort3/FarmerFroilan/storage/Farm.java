@@ -1,6 +1,7 @@
 package io.javacohort3.FarmerFroilan.storage;
 
 import java.util.List;
+
 import io.javacohort3.FarmerFroilan.storage.ChickenCoop;
 import io.javacohort3.FarmerFroilan.storage.Stable;
 import io.javacohort3.FarmerFroilan.storage.FarmHouse;
