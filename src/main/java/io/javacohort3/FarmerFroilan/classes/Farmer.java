@@ -22,6 +22,10 @@ public class Farmer implements Person, Rider, Botanist {
     public void plant(Crop crop) {
         System.out.println("The Farmer plants " + crop);
     }
+
+    public void makeNosie() {
+        System.out.println("The Farmer makes noise");
+    }
 }
 
 
