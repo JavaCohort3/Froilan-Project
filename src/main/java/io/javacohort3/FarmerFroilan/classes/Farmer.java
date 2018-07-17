@@ -1,8 +1,11 @@
-package io.javacohort3.FarmerFroilan;
+package io.javacohort3.FarmerFroilan.classes;
 
 
+import io.javacohort3.FarmerFroilan.interfaces.Botanist;
+import io.javacohort3.FarmerFroilan.interfaces.Person;
+import io.javacohort3.FarmerFroilan.interfaces.Rider;
 
-public class Farmer implements Person, Rider, Botanist{
+public class Farmer implements Person, Rider, Botanist {
 
     public void eat(Edible edible ) {
         System.out.println("The Farmer eats " + edible);
