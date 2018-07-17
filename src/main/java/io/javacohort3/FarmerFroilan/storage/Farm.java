@@ -14,8 +14,7 @@ public class Farm {
     //a farm has a collection of chickencoops
     private FarmHouse farmHouse;
     //a farm has one farmhouse
-
-
+    
     public Farm() {
     }
 
