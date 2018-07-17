@@ -10,6 +10,7 @@ public class CropDuster implements Aircraft, FarmVehicle {
     }
 
     public void operate() {
+        System.out.println("Crop Duster starts");
 
     }
 
