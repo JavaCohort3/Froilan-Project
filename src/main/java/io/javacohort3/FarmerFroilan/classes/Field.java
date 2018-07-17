@@ -7,5 +7,5 @@ import java.util.List;
 
 public class Field {
 
-    private List<CropRow> cropRows = new LinkedList<CropRow>(); //
+    private List<CropRow> cropRows;
 }
