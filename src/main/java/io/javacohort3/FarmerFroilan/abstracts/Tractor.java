@@ -1,11 +1,18 @@
 package io.javacohort3.FarmerFroilan.abstracts;
 
-import io.javacohort3.FarmerFroilan.abstracts.Crop;
 import io.javacohort3.FarmerFroilan.interfaces.FarmVehicle;
 
 public abstract class Tractor implements FarmVehicle {
 
+    public Tractor() {
+    }
+
     public void harvest(Crop crop){
-        this.harvest(crop);
+        System.out.println("Harvested Crops " + crop);
+    }
+
+    @Override
+    public String toString() {
+        return "Tractor{}";
     }
 }
