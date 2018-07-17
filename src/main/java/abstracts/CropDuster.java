@@ -1,4 +1,4 @@
-package classes;
+package abstracts;
 
 import interfaces.Aircraft;
 

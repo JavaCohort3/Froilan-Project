@@ -1,5 +1,4 @@
-package classes;
-
+package abstracts;
 import interfaces.FarmVehicle;
 
 public abstract class Tractor implements FarmVehicle {
