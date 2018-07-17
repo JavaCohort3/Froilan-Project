@@ -5,9 +5,9 @@ import io.javacohort3.FarmerFroilan.storage.CropRow;
 
 public abstract class CropDuster implements Aircraft {
 
-    private CropRow cropRow;
+    private CropRow fertilize;
 
     public void fertilize(CropRow cropRow){
-        this.cropRow = cropRow;
+        this.fertilize = fertilize;
     }
 }
