@@ -5,7 +5,7 @@ import io.javacohort3.FarmerFroilan.interfaces.FarmVehicle;
 
 public class Tractor implements FarmVehicle {
     public void operate() {
-
+        System.out.println("Operating");
     }
 
     public void harvest(Crop crop){
