@@ -1,4 +1,4 @@
-package io.javacohort3.FarmerFroilan.storage;
+package io.javacohort3.FarmerFroilan.classes;
 
 import io.javacohort3.FarmerFroilan.abstracts.Edible;
 
