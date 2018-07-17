@@ -1,11 +1,10 @@
-package io.javacohort3.FarmerFroilan.abstracts;
+package io.javacohort3.FarmerFroilan.classes;
 
 import io.javacohort3.FarmerFroilan.interfaces.Aircraft;
 import io.javacohort3.FarmerFroilan.storage.CropRow;
 
-public abstract class CropDuster implements Aircraft {
-
-    public CropDuster() {
+public class CropDuster implements Aircraft {
+    public void fly() {
     }
 
     public void fertilize(CropRow cropRow){
@@ -16,4 +15,6 @@ public abstract class CropDuster implements Aircraft {
     public String toString() {
         return "CropDuster{}";
     }
+
+
 }
