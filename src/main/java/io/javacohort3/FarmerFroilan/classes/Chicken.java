@@ -1,14 +1,15 @@
 package io.javacohort3.FarmerFroilan.classes;
 
-import io.javacohort3.FarmerFroilan.interfaces.Produce;
 import io.javacohort3.FarmerFroilan.abstracts.Animal;
 import io.javacohort3.FarmerFroilan.classes.EdibleEgg;
+import io.javacohort3.FarmerFroilan.interfaces.Produce;
 
 public class Chicken extends Animal implements Produce {
-
-    @Override
-    public EdibleEgg yield(){
-        return new EdibleEgg();
+    public void makeNoise() {
+        System.out.println("Cock-a-doodle-doo!");
     }
-    //chicken can yeild edible eggs
+
+    public EdibleEgg yield() {
+        return null;
+    }
 }
